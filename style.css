@@ -181,7 +181,6 @@ html, body{
     font-weight: 700;
     text-decoration: none;
     border-bottom: 1px solid #6c6c6c;
-/*    vertical-align: bottom;*/
 }
 
 .ft-menu-link-active {
@@ -204,7 +203,6 @@ html, body{
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
-    /* Text style for "explore al" */
     color: #212121;
     letter-spacing: 3.6px;
     text-decoration: none;
@@ -312,7 +310,6 @@ html, body{
     font-weight: 700;
     line-height: 48px;
     text-transform: uppercase;
-    /* Text style for "exclusive" */
     color: #1e88e5;
     letter-spacing: 1.8px; 
     margin-top: 228px;
@@ -465,7 +462,6 @@ html, body{
 
 .footer {
     display: flex;
-/*    height: 264px;*/
     min-height: 264px;
     background-color: #f7f7f7;
     flex-direction: column;
@@ -535,17 +531,13 @@ html, body{
 .email {
     top: 0;
     width: 370px;
-
     border: 1px solid #d9dee1;
     background-color: #ffffff;
-/*    border-radius: 25px;*/
-    
     color: #6c6c6c;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px; 
-    
     padding-left: 14px;
     padding-right: 15px;
     box-sizing: border-box;
@@ -619,14 +611,12 @@ html, body{
 }
 
 .terms-link {
-    /* Style for "Terms & Co" */
     color: #6c6c6c;
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
-    /* Text style for "T, erms &" */
     letter-spacing: 0.6px;
     text-decoration: none;
 }
@@ -647,6 +637,10 @@ html, body{
 }
 
 .top {
+    flex-grow: 1;
+}
+
+.bottom {
     flex-grow: 1;
 }
 
